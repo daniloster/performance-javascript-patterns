@@ -8,50 +8,50 @@ These are just a few tests, but I will add more tests at the next weekend.
 
 // local declaration outside loop; 
 variable[i] = 'variable ' + i + ' <br />'; 
-[strong]1314ms[/strong]
+#### 1314ms
 
 // local declaration inside loop; 
 var variable = 'variable ' + i + ' <br />';  
-[strong]491ms[/strong]
+#### 491ms
 
 // local declaration of the function as anonymuous; 
 function() { return 'variable ' + i + ' <br />'; }  
-[strong]468ms[/strong]
+#### 468ms
 
 // local declaration of the function as named; 
 function showTestMessage() { return 'variable ' + i + ' <br />'; }
-[strong]371ms[/strong]
+#### 371ms
 
 // local execution of all the function as named; 
-[strong]201ms[/strong]
+#### 201ms
 
 // local execution of all the function as anonymuous; 
-[strong]448ms[/strong]
+#### 448ms
 
 ## Running on Firefox
 - Version: 35.0.1
 
 // local declaration outside loop; 
 variable[i] = 'variable ' + i + ' <br />'; 
-[strong]481ms[/strong]
+#### 481ms
 
 // local declaration inside loop; 
 var variable = 'variable ' + i + ' <br />';  
-[strong]177ms[/strong]
+#### 177ms
 
 // local declaration of the function as anonymuous; 
 function() { return 'variable ' + i + ' <br />'; }  
-[strong]186ms[/strong]
+#### 186ms
 
 // local declaration of the function as named; 
 function showTestMessage() { return 'variable ' + i + ' <br />'; }
-[strong]124ms[/strong]
+#### 124ms
 
 // local execution of all the function as named; 
-[strong]138ms[/strong]
+#### 138ms
 
 // local execution of all the function as anonymuous; 
-[strong]184ms[/strong]
+#### 184ms
 
 
 ## Running on Safari
@@ -59,28 +59,28 @@ function showTestMessage() { return 'variable ' + i + ' <br />'; }
 
 // local declaration outside loop; 
 variable[i] = 'variable ' + i + ' <br />'; 
-[strong]627ms[/strong]
+#### 627ms
 
 // local declaration inside loop; 
 var variable = 'variable ' + i + ' <br />';  
-[strong]246ms[/strong]
+#### 246ms
 
 // local declaration of the function as anonymuous; 
 function() { return 'variable ' + i + ' <br />'; }  
-[strong]292ms[/strong]
+#### 292ms
 
 // local declaration of the function as named; 
 function showTestMessage() { return 'variable ' + i + ' <br />'; }
-[strong]186ms[/strong]
+#### 186ms
 
 // local execution of all the function as named; 
-[strong]398ms[/strong]
+#### 398ms
 
 // local execution of all the function as anonymuous; 
-[strong]278ms[/strong]
+#### 278ms
 
 
 
-## I realy hope you guys enjoyed and share! Let's collaborate! If everybody knows how to improve performance on the web, we will have a better UX while using some websites/webapp.
+### I realy hope you guys enjoyed and share! Let's collaborate! If everybody knows how to improve performance on the web, we will have a better UX while using some websites/webapp.
 
-# Cheers
+## Cheers
