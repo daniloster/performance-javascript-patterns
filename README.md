@@ -81,6 +81,6 @@ function showTestMessage() { return 'variable ' + i + ' &lt;br /&gt;'; }
 
 
 
-### I realy hope you guys enjoyed and share! Let's collaborate! If everybody knows how to improve performance on the web, we will have a better UX while using some websites/webapp.
+### I really hope you guys enjoyed and, please, share it! Let's collaborate! If everybody knows how to improve performance on the web, we will have a better UX while using some websites/webapp.
 
 ## Cheers
