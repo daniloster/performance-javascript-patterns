@@ -22,10 +22,10 @@ function() { return 'variable ' + i + ' &lt;br /&gt;'; }
 function showTestMessage() { return 'variable ' + i + ' &lt;br /&gt;'; }
 #### 371ms
 
-// local execution of all the function as named; 
+// local execution of all the function as anonymuous; 
 #### 201ms
 
-// local execution of all the function as anonymuous; 
+// local execution of all the function as named; 
 #### 448ms
 
 ## Running on Firefox
@@ -47,10 +47,10 @@ function() { return 'variable ' + i + ' &lt;br /&gt;'; }
 function showTestMessage() { return 'variable ' + i + ' &lt;br /&gt;'; }
 #### 124ms
 
-// local execution of all the function as named; 
+// local execution of all the function as anonymuous; 
 #### 138ms
 
-// local execution of all the function as anonymuous; 
+// local execution of all the function as named; 
 #### 184ms
 
 
@@ -73,14 +73,14 @@ function() { return 'variable ' + i + ' &lt;br /&gt;'; }
 function showTestMessage() { return 'variable ' + i + ' &lt;br /&gt;'; }
 #### 186ms
 
-// local execution of all the function as named; 
+// local execution of all the function as anonymuous; 
 #### 398ms
 
-// local execution of all the function as anonymuous; 
+// local execution of all the function as named; 
 #### 278ms
 
 
 
 ### I really hope you guys enjoyed and, please, share it! Let's collaborate! If everybody knows how to improve performance on the web, we will have a better UX while using some websites/webapp.
 
-## Cheers
+### Cheers
